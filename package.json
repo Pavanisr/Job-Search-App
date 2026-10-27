@@ -1,0 +1,52 @@
+{
+  "name": "job-search-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/app": "5.0.6",
+    "@capacitor/core": "5.5.1",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/keyboard": "5.0.6",
+    "@capacitor/status-bar": "5.0.6",
+    "@ionic/react": "^7.5.0",
+    "@ionic/react-router": "^7.5.0",
+    "ionicons": "^7.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^3.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3"
+  }
+}
